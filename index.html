@@ -7,10 +7,29 @@
     <title>Acme App</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <!-- Start Coding Here -->
-     <nav></nav>
-     <section id="hero-section" class=""></section>
+  <body class="bg-[#f7f7fb] min-h-screen p-6">
+    <nav class="mt-4 mb-16 rounded-full bg-white/80 shadow flex items-center justify-between px-20 py-5 backdrop-blur-lg">
+      <div class="flex items-center space-x-2">
+        <span class="text-3xl font-bold text-gray-900">Acme</span>
+        <span class="w-2 h-2 bg-indigo-500 rounded-full inline-block align-top mt-2"></span>
+      </div>
+      <ul class="flex items-center space-x-8 text-base font-medium">
+        <li><a href="#" class="text-indigo-600 underline">Home</a></li>
+        <li><a href="#feature-section" class="text-gray-800 hover:text-indigo-600">Features</a></li>
+        <li><a href="#" class="text-gray-800 hover:text-indigo-600">Pricing</a></li>
+        <li><a href="#contact-section" class="text-gray-800 hover:text-indigo-600">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="hero-section" class="flex flex-col items-center justify-center text-center py-16">
+      <span class="inline-flex items-center px-5 py-1 mb-6 rounded-full bg-indigo-100 text-[#5E44FF] font-medium text-lg">
+        <span class="mr-2">🌈</span>Acme Productivity App
+      </span>
+      <h1 class="text-9xl font-extrabold text-[#1A1A2C] mb-4">
+        Boost Your <span class="text-indigo-600">Producti</span>vity
+      </h1>
+      <p class="text-2xl font-semibold mb-8">Streamline your workflow with our all-in-one productivity app.</p>
+      <button class="px-9 py-4 bg-gray-900 text-white text-base font-semibold rounded-2xl shadow hover:bg-gray-800 transition">Start Free Trial</button>
+    </section>
      <section id="feature-section"></section>
      <section id="contact-section"></section>
      <footer></footer>
